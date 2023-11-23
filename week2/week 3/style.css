@@ -22,7 +22,7 @@ html {
 header {
     display: flex;
     align-items: center;
-    background: #ffffffd9;
+    background: #92a8d1;
     padding: 20px;
     position: sticky;
     top: 0;
@@ -144,8 +144,9 @@ main {
 }
 
 .service-column img {
-    width: 90%;
+    width: 100%;
     height: auto;
+    max-width: 250px;
     margin-bottom: 10px;
     transition: transform 0.3s ease-in-out;
 }
@@ -204,10 +205,18 @@ main {
 .cta-container {
     text-align: center;
     padding: 4rem;
-    background-color: #fdedfb;
+    background-color: #ffcaf8;
     margin-top: 30px;
     border: 1px dotted #ffcaf8;
 }
+.cta-title {
+    text-decoration: underline; /* Add decoration for the CTA title */
+    text-transform: uppercase; /* Make the title uppercase */
+}
+
+.cta-paragraph {
+    font-size: 1.2rem; /* Change font size */
+    font-weight: bold; /* Change font weight */ }
 
 .cta-button {
     display: inline-block;
@@ -216,7 +225,7 @@ main {
     color: #ffffff;
     text-decoration: none;
     border-radius: 5px;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: bold;
     margin-top: 15px;
     transition: background-color 0.3s;
